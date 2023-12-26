@@ -1,0 +1,18 @@
+.auth-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  @media screen and (max-width: 992px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &_text {
+    color: #000;
+    font-family: var(--ff);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.16px;
+  }
+}
